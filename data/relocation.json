@@ -1,0 +1,5135 @@
+{
+  "500.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring me the bottom cover?",
+        "system": "Certainly, I'll bring you the bottom cover right away.",
+        "s_system": "Is there anything else you need along with the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "501.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the PCB from the workbench.",
+        "system": "I'll retrieve the PCB from the workbench for you.",
+        "s_system": "Do you need any tools to work with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "workbench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "502.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Could you move the red top cover to the assembly area?",
+        "system": "Certainly, I'll move the red top cover to the assembly area for you.",
+        "s_system": "Is there a specific spot in the assembly area where you'd like me to place it?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "503.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring me the small fuse from the storage room.",
+        "system": "I'll fetch the small fuse from the storage room for you right away.",
+        "s_system": "Do you need any specific tools to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "storage room",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "504.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get me the screwdriver?",
+        "system": "I apologize, but I don't have information on how to grasp a screwdriver. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "screwdriver"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "505.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Please relocate the blue PCB to the testing station.",
+        "system": "Certainly, I'll move the blue PCB to the testing station for you.",
+        "s_system": "Is there any specific equipment at the testing station you'll be using with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "testing station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "506.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large bottom cover.",
+        "system": "Certainly, I'll bring you the large bottom cover right away.",
+        "s_system": "Do you need any assistance with installing the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "507.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring the fuse to the repair bench?",
+        "system": "Certainly, I'll bring the fuse to the repair bench for you.",
+        "s_system": "Is there any specific tool you need along with the fuse at the repair bench?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "508.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the green top cover from the shelf to the workstation.",
+        "system": "I'll move the green top cover from the shelf to the workstation right away.",
+        "s_system": "Is there a specific area on the workstation where you'd like me to place it?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "shelf",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "509.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Fetch me the spare battery from the drawer.",
+        "system": "I apologize, but I don't have information on how to grasp a spare battery. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "spare battery"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "drawer",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "510.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the small PCB from the inventory?",
+        "system": "Certainly, I'll retrieve the small PCB from the inventory for you.",
+        "s_system": "Do you need any specific components to go with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "511.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the black bottom cover to the assembly line.",
+        "system": "I'll bring the black bottom cover to the assembly line right away.",
+        "s_system": "Is there a specific station on the assembly line where you want me to place it?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "black",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "assembly line"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "512.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large fuse from the electrical cabinet.",
+        "system": "I'll get the large fuse from the electrical cabinet for you.",
+        "s_system": "Do you need any safety equipment to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "electrical cabinet",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "513.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you move the red top cover to the quality control area?",
+        "system": "Certainly, I'll move the red top cover to the quality control area for you.",
+        "s_system": "Is there any specific inspection you'll be performing on the top cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "quality control area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "514.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Fetch the soldering iron from the toolbox.",
+        "system": "I apologize, but I don't have information on how to grasp a soldering iron. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "soldering iron"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "toolbox",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "515.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring me the blue PCB from the testing area.",
+        "system": "I'll bring you the blue PCB from the testing area right away.",
+        "s_system": "Did the PCB pass all the tests? Do you need the test results as well?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "516.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the small bottom cover from the packaging area?",
+        "system": "Certainly, I'll retrieve the small bottom cover from the packaging area for you.",
+        "s_system": "Do you need any packaging materials along with the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "packaging area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "517.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the green fuse to the repair station.",
+        "system": "I'll move the green fuse to the repair station right away.",
+        "s_system": "Is there any specific equipment at the repair station you'll be using with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "repair station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "518.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large top cover from the storage room.",
+        "system": "I'll get the large top cover from the storage room for you.",
+        "s_system": "Do you need any assistance carrying or installing the large top cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "storage room",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "519.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the multimeter from the calibration bench.",
+        "system": "I apologize, but I don't have information on how to grasp a multimeter. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "multimeter"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "calibration bench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "520.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get me the red PCB?",
+        "system": "Certainly, I'll bring you the red PCB right away.",
+        "s_system": "Do you need any specific components or tools to work with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "521.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the small fuse to the workbench.",
+        "system": "I'll move the small fuse to the workbench for you right away.",
+        "s_system": "Is there any specific tool you'll need at the workbench to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "not_mentioned",
+                "to": "workbench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "522.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the blue bottom cover from the assembly line.",
+        "system": "I'll bring the blue bottom cover from the assembly line for you.",
+        "s_system": "Is there a specific reason you're removing it from the assembly line? Do you need any inspection tools?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "assembly line",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "523.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you fetch the oscilloscope from the test bench?",
+        "system": "I apologize, but I don't have information on how to grasp an oscilloscope. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "oscilloscope"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "test bench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "524.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large top cover for the new model.",
+        "system": "Certainly, I'll bring you the large top cover for the new model right away.",
+        "s_system": "Do you need any assistance with installing the top cover on the new model?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "525.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring the green PCB to the soldering station?",
+        "system": "Certainly, I'll bring the green PCB to the soldering station for you.",
+        "s_system": "Do you need any specific soldering materials prepared at the station?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "soldering station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "526.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the small bottom cover from the inventory to the assembly area.",
+        "system": "I'll move the small bottom cover from the inventory to the assembly area right away.",
+        "s_system": "Is there a specific station in the assembly area where you want me to place it?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "527.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring me the red fuse from the electrical box.",
+        "system": "I'll bring you the red fuse from the electrical box right away.",
+        "s_system": "Do you need any safety equipment to work with the electrical components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "electrical box",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "528.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the large PCB from the testing area?",
+        "system": "Certainly, I'll retrieve the large PCB from the testing area for you.",
+        "s_system": "Do you need the test results for this PCB as well?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "testing area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "529.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the wire cutters from the toolbox.",
+        "system": "I apologize, but I don't have information on how to grasp wire cutters. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "wire cutters"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "toolbox",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "530.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the blue top cover to the packaging station.",
+        "system": "I'll move the blue top cover to the packaging station right away.",
+        "s_system": "Do you need any packaging materials prepared at the station?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "packaging station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+"531.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring the small fuse to the repair area?",
+        "system": "Certainly, I'll bring the small fuse to the repair area for you.",
+        "s_system": "Is there any specific equipment you'll need in the repair area to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "not_mentioned",
+                "to": "repair area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "532.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large bottom cover from the storage area.",
+        "system": "I'll get the large bottom cover from the storage area for you right away.",
+        "s_system": "Do you need any assistance with carrying or installing the large bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "storage area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "533.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the yellow PCB to the testing station.",
+        "system": "I'll bring the yellow PCB to the testing station for you.",
+        "s_system": "Is there any specific test you'll be running on this PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "yellow",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "testing station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "534.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get me the screwdriver set?",
+        "system": "I apologize, but I don't have information on how to grasp a screwdriver set. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "screwdriver set"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+
+  "535.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the red top cover from the assembly line to quality control.",
+        "system": "I'll move the red top cover from the assembly line to the quality control area right away.",
+        "s_system": "Is there a specific quality check you'll be performing on this top cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "assembly line",
+                "to": "quality control"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "536.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring the medium-sized fuse from the electrical cabinet?",
+        "system": "Certainly, I'll bring the medium-sized fuse from the electrical cabinet for you.",
+        "s_system": "Do you need any safety equipment to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "medium",
+                "from": "electrical cabinet",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "537.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the green PCB from the repair bench.",
+        "system": "I'll get the green PCB from the repair bench for you right away.",
+        "s_system": "Has this PCB been repaired? Do you need any documentation about the repairs?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "repair bench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "538.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the small bottom cover to the packaging area.",
+        "system": "I'll bring the small bottom cover to the packaging area for you.",
+        "s_system": "Do you need any packaging materials prepared for this bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "not_mentioned",
+                "to": "packaging area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "539.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you fetch the soldering station from the workbench?",
+        "system": "I apologize, but I don't have information on how to grasp a soldering station. Is there another object you need that I might be able to help with?",
+        "s_system": "I can assist with bottom covers, PCBs, top covers, or fuses if you need any of those.",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "soldering station"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "workbench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      }
+    ]
+  },
+"540.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring me the bottom cover?",
+        "system": "Certainly, I'll bring you the bottom cover right away. Is there any specific location you'd like me to get it from?",
+        "s_system": "Do you need any tools to work with the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Yes, please get it from the storage room. And I'll need a screwdriver too.",
+        "system": "I'll retrieve the bottom cover from the storage room for you. However, I'm not able to bring you a screwdriver as it's not one of the objects I'm designed to handle. Is there anything else I can help with regarding the bottom cover?",
+        "s_system": "Would you like me to bring the bottom cover to a specific workstation?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "storage room",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "541.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the PCB from the workbench.",
+        "system": "Certainly, I'll retrieve the PCB from the workbench for you. Is there a specific place you'd like me to bring it?",
+        "s_system": "Do you need any components along with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "workbench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the testing area. And can you also get me a soldering iron?",
+        "system": "I'll bring the PCB from the workbench to the testing area right away. However, I'm not able to bring you a soldering iron as it's not one of the objects I'm designed to handle. Is there anything else you need with the PCB?",
+        "s_system": "Would you like me to inform the testing team that you're bringing a PCB for testing?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "workbench",
+                "to": "testing area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "542.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you move the red top cover to the assembly area?",
+        "system": "Certainly, I'll move the red top cover to the assembly area for you. Is there a specific station in the assembly area where you'd like me to place it?",
+        "s_system": "Do you need any other components brought to the assembly area?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please place it at station 3. And yes, I also need the corresponding PCB.",
+        "system": "I'll place the red top cover at station 3 in the assembly area. I can also bring you the corresponding PCB. Where would you like me to get the PCB from?",
+        "s_system": "Would you like me to notify the assembly team about these components being brought to station 3?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "543.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring me the small fuse from the storage room.",
+        "system": "Certainly, I'll fetch the small fuse from the storage room for you. Where would you like me to bring it?",
+        "s_system": "Do you need any specific tools to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "storage room",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Bring it to my workstation. And can you also get me a multimeter?",
+        "system": "I'll bring the small fuse from the storage room to your workstation right away. However, I'm not able to bring you a multimeter as it's not one of the objects I'm designed to handle. Is there anything else you need with the fuse?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling this particular fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "storage room",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "544.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get me the screwdriver?",
+        "system": "I apologize, but I don't have information on how to grasp a screwdriver. Is there another object you need that I might be able to help with? I can assist with bottom covers, PCBs, top covers, or fuses.",
+        "s_system": "Perhaps you need one of these items to work on your current task?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "screwdriver"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      },
+      {
+        "user": "I see. In that case, can you bring me the blue PCB from the testing area?",
+        "system": "Certainly, I can bring you the blue PCB from the testing area. Where would you like me to place it?",
+        "s_system": "Do you need any information about the tests performed on this PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "545.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Please relocate the blue PCB to the testing station.",
+        "system": "Certainly, I'll move the blue PCB to the testing station for you. Where should I retrieve the PCB from?",
+        "s_system": "Is there any specific test you want to be performed on this PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "testing station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The PCB is at my workstation. And yes, it needs a functionality test.",
+        "system": "I understand. I'll retrieve the blue PCB from your workstation and relocate it to the testing station for a functionality test. Is there anything else you need me to do with the PCB?",
+        "s_system": "Would you like me to notify the testing team about the incoming PCB for functionality testing?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "workstation",
+                "to": "testing station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "546.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large bottom cover.",
+        "system": "Certainly, I'll bring you the large bottom cover. Is there a specific location you'd like me to get it from?",
+        "s_system": "Do you need any assistance with handling or installing the large bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "It should be in the storage area. And can you also bring me the matching PCB?",
+        "system": "I'll retrieve the large bottom cover from the storage area for you. I can also bring you the matching PCB. Where would you like me to bring these items?",
+        "s_system": "Is there a specific workstation where you'll be assembling these components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "storage area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "547.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring the fuse to the repair bench?",
+        "system": "Certainly, I'll bring the fuse to the repair bench for you. Where should I retrieve the fuse from?",
+        "s_system": "Is there any specific tool you need along with the fuse at the repair bench?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The fuse is in the electrical cabinet. And I'll need a multimeter too.",
+        "system": "I'll retrieve the fuse from the electrical cabinet and bring it to the repair bench for you. However, I'm not able to bring you a multimeter as it's not one of the objects I'm designed to handle. Is there anything else you need with the fuse?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling fuses from the electrical cabinet?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "electrical cabinet",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "548.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the green top cover from the shelf to the workstation.",
+        "system": "Certainly, I'll move the green top cover from the shelf to the workstation for you. Is there a specific area on the workstation where you'd like me to place it?",
+        "s_system": "Do you need any other components to go with the top cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "shelf",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please place it on the left side of the workstation. And can you bring the corresponding PCB as well?",
+        "system": "I'll place the green top cover on the left side of the workstation. I can also bring you the corresponding PCB. Where should I retrieve the PCB from?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "shelf",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "549.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Fetch me the spare battery from the drawer.",
+        "system": "I apologize, but I don't have information on how to grasp a spare battery. Is there another object you need that I might be able to help with? I can assist with bottom covers, PCBs, top covers, or fuses.",
+        "s_system": "Perhaps one of these items would be helpful for your current task?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "spare battery"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "drawer",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      },
+      {
+        "user": "I see. In that case, can you bring me a small fuse from the storage area?",
+        "system": "Certainly, I can bring you a small fuse from the storage area. Where would you like me to place it?",
+        "s_system": "Do you need any information about the specifications of the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "storage area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "550.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the small PCB from the inventory?",
+        "system": "Certainly, I'll retrieve the small PCB from the inventory for you. Where would you like me to bring it?",
+        "s_system": "Do you need any specific components to go with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the testing area. And can you also get me a soldering iron?",
+        "system": "I'll bring the small PCB from the inventory to the testing area for you. However, I'm not able to bring you a soldering iron as it's not one of the objects I'm designed to handle. Is there anything else you need with the PCB?",
+        "s_system": "Would you like me to notify the testing team that you're bringing a PCB for testing?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "testing area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "551.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the black bottom cover to the assembly line.",
+        "system": "I'll bring the black bottom cover to the assembly line right away. Where should I retrieve the bottom cover from?",
+        "s_system": "Is there a specific station on the assembly line where you want me to place it?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "black",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "assembly line"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The bottom cover is in the storage area. Please place it at station 2. Also, can you bring the corresponding PCB?",
+        "system": "I'll retrieve the black bottom cover from the storage area and place it at station 2 on the assembly line. I can also bring you the corresponding PCB. Where should I get the PCB from?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components at station 2?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "black",
+                "size": "not_mentioned",
+                "from": "storage area",
+                "to": "assembly line"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "552.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large fuse from the electrical cabinet.",
+        "system": "I'll get the large fuse from the electrical cabinet for you. Where would you like me to bring it?",
+        "s_system": "Do you need any safety equipment to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "electrical cabinet",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to my workstation. And can you also get me insulated gloves?",
+        "system": "I'll bring the large fuse from the electrical cabinet to your workstation. However, I'm not able to bring you insulated gloves as they're not one of the objects I'm designed to handle. Is there anything else you need with the fuse?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling this large fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "electrical cabinet",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "553.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you move the red top cover to the quality control area?",
+        "system": "Certainly, I'll move the red top cover to the quality control area for you. Where should I retrieve the top cover from?",
+        "s_system": "Is there any specific inspection you'll be performing on the top cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "quality control area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The top cover is at the assembly line. And yes, we need to check for any surface defects.",
+        "system": "I'll retrieve the red top cover from the assembly line and move it to the quality control area for surface defect inspection. Is there a specific station in the quality control area where you'd like me to place it?",
+        "s_system": "Would you like me to inform the quality control team about the incoming top cover for inspection?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "assembly line",
+                "to": "quality control area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "554.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Fetch the soldering iron from the toolbox.",
+        "system": "I apologize, but I don't have information on how to grasp a soldering iron. Is there another object you need that I might be able to help with? I can assist with bottom covers, PCBs, top covers, or fuses.",
+        "s_system": "Perhaps one of these items would be helpful for your current task?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "soldering iron"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "toolbox",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      },
+      {
+        "user": "I see. In that case, can you bring me a PCB from the inventory?",
+        "system": "Certainly, I can bring you a PCB from the inventory. Is there a specific size or color of PCB you need?",
+        "s_system": "Do you need any components to go with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "inventory",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+"555.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring me the blue PCB from the testing area.",
+        "system": "I'll bring you the blue PCB from the testing area right away. Where would you like me to place it?",
+        "s_system": "Did the PCB pass all the tests? Do you need the test results as well?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to my workstation. And yes, I'd like to see the test results.",
+        "system": "I'll bring the blue PCB from the testing area to your workstation. However, I'm not able to bring you the test results as they're not one of the objects I'm designed to handle. Is there anything else you need with the PCB?",
+        "s_system": "Would you like me to ask a team member to bring you the test results?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "556.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the small bottom cover from the packaging area?",
+        "system": "Certainly, I'll retrieve the small bottom cover from the packaging area for you. Where would you like me to bring it?",
+        "s_system": "Do you need any packaging materials along with the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "packaging area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the assembly line. And can you also get me a screwdriver?",
+        "system": "I'll bring the small bottom cover from the packaging area to the assembly line. However, I'm not able to bring you a screwdriver as it's not one of the objects I'm designed to handle. Is there anything else you need with the bottom cover?",
+        "s_system": "Would you like me to inform the assembly line team that you're bringing a bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "packaging area",
+                "to": "assembly line"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "557.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the green fuse to the repair station.",
+        "system": "I'll move the green fuse to the repair station right away. Where should I retrieve the fuse from?",
+        "s_system": "Is there any specific equipment at the repair station you'll be using with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "repair station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The fuse is in the electrical cabinet. And I'll need a multimeter at the repair station.",
+        "system": "I'll retrieve the green fuse from the electrical cabinet and move it to the repair station. However, I'm not able to bring you a multimeter as it's not one of the objects I'm designed to handle. Is there anything else you need with the fuse at the repair station?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling this fuse at the repair station?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "electrical cabinet",
+                "to": "repair station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "558.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large top cover from the storage room.",
+        "system": "I'll get the large top cover from the storage room for you. Where would you like me to bring it?",
+        "s_system": "Do you need any assistance carrying or installing the large top cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "storage room",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the assembly area. And can you also get the corresponding PCB?",
+        "system": "I'll bring the large top cover from the storage room to the assembly area. I can also get the corresponding PCB. Where should I retrieve the PCB from?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "storage room",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "559.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the multimeter from the calibration bench.",
+        "system": "I apologize, but I don't have information on how to grasp a multimeter. Is there another object you need that I might be able to help with? I can assist with bottom covers, PCBs, top covers, or fuses.",
+        "s_system": "Perhaps one of these items would be helpful for your current task?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "multimeter"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "calibration bench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      },
+      {
+        "user": "I see. In that case, can you bring me a small fuse from the electrical cabinet?",
+        "system": "Certainly, I can bring you a small fuse from the electrical cabinet. Where would you like me to place it?",
+        "s_system": "Do you need any safety equipment to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "electrical cabinet",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "560.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get me the red PCB?",
+        "system": "Certainly, I'll bring you the red PCB. Where should I retrieve it from?",
+        "s_system": "Do you need any specific components or tools to work with the PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The red PCB is in the testing area. Please bring it to my workstation. Also, can you get me a soldering iron?",
+        "system": "I'll bring the red PCB from the testing area to your workstation. However, I'm not able to bring you a soldering iron as it's not one of the objects I'm designed to handle. Is there anything else you need with the PCB?",
+        "s_system": "Would you like me to check if there are any test results for this PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "561.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the small fuse to the workbench.",
+        "system": "I'll move the small fuse to the workbench for you right away. Where should I retrieve the fuse from?",
+        "s_system": "Is there any specific tool you'll need at the workbench to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "not_mentioned",
+                "to": "workbench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The fuse is in the storage area. And I'll need a pair of wire cutters at the workbench.",
+        "system": "I'll retrieve the small fuse from the storage area and move it to the workbench. However, I'm not able to bring you wire cutters as they're not one of the objects I'm designed to handle. Is there anything else you need with the fuse at the workbench?",
+        "s_system": "Would you like me to check if there are any safety guidelines for working with fuses at the workbench?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "storage area",
+                "to": "workbench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "562.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the blue bottom cover from the assembly line.",
+        "system": "I'll bring the blue bottom cover from the assembly line for you. Where would you like me to place it?",
+        "s_system": "Is there a specific reason you're removing it from the assembly line? Do you need any inspection tools?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "assembly line",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the quality control area. And yes, I'll need a magnifying glass for inspection.",
+        "system": "I'll bring the blue bottom cover from the assembly line to the quality control area. However, I'm not able to bring you a magnifying glass as it's not one of the objects I'm designed to handle. Is there anything else you need with the bottom cover in the quality control area?",
+        "s_system": "Would you like me to inform the quality control team that you're bringing a bottom cover for inspection?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "assembly line",
+                "to": "quality control area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "563.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you fetch the oscilloscope from the test bench?",
+        "system": "I apologize, but I don't have information on how to grasp an oscilloscope. Is there another object you need that I might be able to help with? I can assist with bottom covers, PCBs, top covers, or fuses.",
+        "s_system": "Perhaps one of these items would be helpful for your current task?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "oscilloscope"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "test bench",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      },
+      {
+        "user": "I see. In that case, can you bring me a PCB from the inventory? I need one for testing.",
+        "system": "Certainly, I can bring you a PCB from the inventory for testing. Is there a specific type or size of PCB you need?",
+        "s_system": "Would you like me to bring it to the test bench where you were planning to use the oscilloscope?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "inventory",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "564.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large top cover for the new model.",
+        "system": "Certainly, I'll bring you the large top cover for the new model. Where should I retrieve it from?",
+        "s_system": "Do you need any assistance with installing the top cover on the new model?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The top cover should be in the storage area. Please bring it to the assembly line. Also, can you get me the assembly instructions?",
+        "system": "I'll retrieve the large top cover for the new model from the storage area and bring it to the assembly line. However, I'm not able to bring you the assembly instructions as they're not one of the objects I'm designed to handle. Is there anything else you need with the top cover at the assembly line?",
+        "s_system": "Would you like me to ask a team member to bring you the assembly instructions?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "storage area",
+                "to": "assembly line"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "565.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring the green PCB to the soldering station?",
+        "system": "Certainly, I'll bring the green PCB to the soldering station for you. Where should I retrieve the PCB from?",
+        "s_system": "Do you need any specific soldering materials prepared at the station?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "soldering station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The green PCB is in the testing area. And yes, I'll need solder wire and flux.",
+        "system": "I'll bring the green PCB from the testing area to the soldering station. However, I'm not able to bring you solder wire and flux as they're not objects I'm designed to handle. Is there anything else you need with the PCB at the soldering station?",
+        "s_system": "Would you like me to inform the soldering station team that you're bringing a PCB for soldering?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "green",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "soldering station"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "566.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Move the small bottom cover from the inventory to the assembly area.",
+        "system": "I'll move the small bottom cover from the inventory to the assembly area right away. Is there a specific station in the assembly area where you want me to place it?",
+        "s_system": "Do you need any other components to go with the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please place it at assembly station 2. And yes, I'll need the corresponding PCB as well.",
+        "system": "I'll move the small bottom cover from the inventory to assembly station 2 in the assembly area. I can also bring you the corresponding PCB. Where should I retrieve the PCB from?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components at station 2?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "567.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring me the red fuse from the electrical box.",
+        "system": "I'll bring you the red fuse from the electrical box right away. Where would you like me to place it?",
+        "s_system": "Do you need any safety equipment to work with the electrical components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "electrical box",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the repair bench. And yes, I'll need insulated gloves.",
+        "system": "I'll bring the red fuse from the electrical box to the repair bench. However, I'm not able to bring you insulated gloves as they're not one of the objects I'm designed to handle. Is there anything else you need with the fuse at the repair bench?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling this fuse at the repair bench?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "electrical box",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "568.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the large PCB from the testing area?",
+        "system": "Certainly, I'll retrieve the large PCB from the testing area for you. Where would you like me to bring it?",
+        "s_system": "Do you need the test results for this PCB as well?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "testing area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the assembly line. And yes, I'd like to see the test results too.",
+        "system": "I'll bring the large PCB from the testing area to the assembly line. However, I'm not able to bring you the test results as they're not one of the objects I'm designed to handle. Is there anything else you need with the PCB at the assembly line?",
+        "s_system": "Would you like me to ask a team member to bring you the test results?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "testing area",
+                "to": "assembly line"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "569.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Bring the wire cutters from the toolbox.",
+        "system": "I apologize, but I don't have information on how to grasp wire cutters. Is there another object you need that I might be able to help with? I can assist with bottom covers, PCBs, top covers, or fuses.",
+        "s_system": "Perhaps one of these items would be helpful for your current task?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "wire cutters"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "toolbox",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "null"
+        }
+      },
+      {
+        "user": "I see. In that case, can you bring me a fuse from the electrical cabinet?",
+        "system": "Certainly, I can bring you a fuse from the electrical cabinet. Is there a specific size or color of fuse you need?",
+        "s_system": "Do you need any safety equipment to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "electrical cabinet",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+  "570.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you bring me the bottom cover?",
+        "system": "Certainly, I'll bring you the bottom cover. Where should I retrieve it from?",
+        "s_system": "Do you need any tools to work with the bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The bottom cover is in the storage area. Please bring it to my workstation.",
+        "system": "I'll retrieve the bottom cover from the storage area and bring it to your workstation. Is there anything else you need with it?",
+        "s_system": "Would you like me to inform you about any specific features of this bottom cover?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "storage area",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Yes, I also need the corresponding PCB. It should be near the bottom cover in the storage area.",
+        "system": "I understand. I'll bring both the bottom cover and the corresponding PCB from the storage area to your workstation. Is there a specific place at your workstation where you'd like me to put them?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "bottom cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "storage area",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "571.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the large fuse from the electrical cabinet.",
+        "system": "Certainly, I'll get the large fuse from the electrical cabinet for you. Where would you like me to bring it?",
+        "s_system": "Do you need any safety equipment to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "electrical cabinet",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the repair bench. And can you also get me a multimeter?",
+        "system": "I'll bring the large fuse from the electrical cabinet to the repair bench. However, I'm not able to bring you a multimeter as it's not one of the objects I'm designed to handle. Is there anything else you need with the fuse?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling this large fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "large",
+                "from": "electrical cabinet",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "I see. In that case, can you also bring me the small fuse from the same cabinet? I need to compare them.",
+        "system": "Certainly, I'll bring both the large and small fuses from the electrical cabinet to the repair bench for you to compare. Is there anything specific you're looking to compare between these fuses?",
+        "s_system": "Would you like me to inform the maintenance team that you're working on fuse comparisons at the repair bench?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "electrical cabinet",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "572.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you move the red top cover to the assembly area?",
+        "system": "Certainly, I'll move the red top cover to the assembly area for you. Where should I retrieve the top cover from?",
+        "s_system": "Is there a specific station in the assembly area where you'd like me to place it?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "The top cover is at the quality control station. Please place it at assembly station 3.",
+        "system": "I understand. I'll move the red top cover from the quality control station to assembly station 3 in the assembly area. Is there anything else you need with the top cover?",
+        "s_system": "Would you like me to inform the assembly team that the top cover is being brought to station 3?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "red",
+                "size": "not_mentioned",
+                "from": "quality control station",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Yes, I also need the corresponding PCB. It should be at the testing area. And can you bring me a screwdriver?",
+        "system": "I'll bring the corresponding PCB from the testing area to assembly station 3, along with the red top cover. However, I'm not able to bring you a screwdriver as it's not one of the objects I'm designed to handle. Is there anything else you need at assembly station 3?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components at station 3?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "assembly area"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "573.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "I need the blue PCB from the testing area.",
+        "system": "Certainly, I'll retrieve the blue PCB from the testing area for you. Where would you like me to bring it?",
+        "s_system": "Do you need any information about the tests performed on this PCB?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to my workstation. And yes, I'd like to see the test results.",
+        "system": "I'll bring the blue PCB from the testing area to your workstation. However, I'm not able to bring you the test results as they're not one of the objects I'm designed to handle. Is there anything else you need with the PCB?",
+        "s_system": "Would you like me to ask a team member to bring you the test results?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "blue",
+                "size": "not_mentioned",
+                "from": "testing area",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "That would be great. Also, can you bring me the corresponding top cover? It should be in the storage area.",
+        "system": "Certainly, I'll bring both the blue PCB from the testing area and the corresponding top cover from the storage area to your workstation. Is there a specific place at your workstation where you'd like me to put these components?",
+        "s_system": "Would you like me to check if there are any assembly instructions for these components?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "top cover"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "storage area",
+                "to": "workstation"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+
+  "574.json": {
+    "domain": {
+      "relocation": true
+    },
+    "turn": [
+      {
+        "user": "Can you get the small fuse from the inventory?",
+        "system": "Certainly, I'll retrieve the small fuse from the inventory for you. Where would you like me to bring it?",
+        "s_system": "Do you need any specific tools to work with the fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "not_mentioned"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "Please bring it to the repair bench. And can you also get me a multimeter?",
+        "system": "I'll bring the small fuse from the inventory to the repair bench. However, I'm not able to bring you a multimeter as it's not one of the objects I'm designed to handle. Is there anything else you need with the fuse?",
+        "s_system": "Would you like me to check if there are any safety protocols for handling this fuse?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "fuse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "small",
+                "from": "inventory",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      },
+      {
+        "user": "I see. In that case, can you also bring me a PCB? I need to check the fuse on it.",
+        "system": "Certainly, I can bring you a PCB along with the small fuse. Where should I retrieve the PCB from? And is there a specific type or size of PCB you need?",
+        "s_system": "Would you like me to inform the maintenance team that you're working on fuse and PCB testing at the repair bench?",
+        "slots": {
+          "relocation": {
+            "DB_request": {
+              "req": {
+                "object_name": "pcb"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {},
+              "opt": {
+                "color": "not_mentioned",
+                "size": "not_mentioned",
+                "from": "not_mentioned",
+                "to": "repair bench"
+              },
+              "type": "relocation"
+            }
+          }
+        },
+        "search_result": {
+          "object_name": "detected"
+        }
+      }
+    ]
+  },
+"575.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can I have the top cover here?",
+            "system": "No problem. Here you are.",
+            "s_system": "I am happy to help.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"576.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Please move the pcb to the workbench.",
+            "system": "Sure, I can move the pcb to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"577.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you bring the bottom cover from the shelf?",
+            "system": "Sure, I can bring the bottom cover from the shelf.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"578.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the fuse to the storage area.",
+            "system": "Sure, I can move the fuse to the storage area.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"579.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you get the top cover from the table?",
+            "system": "Sure, I can get the top cover from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"580.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Bring the pcb from the shelf to the workbench.",
+            "system": "Sure, I can bring the pcb from the shelf to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"581.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you move the bottom cover to the storage area?",
+            "system": "Sure, I can move the bottom cover to the storage area.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"582.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Please get the fuse from the shelf.",
+            "system": "Sure, I can get the fuse from the shelf.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"583.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you bring the top cover from the table to the workbench?",
+            "system": "Sure, I can bring the top cover from the table to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"584.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the pcb to the storage area.",
+            "system": "Sure, I can move the pcb to the storage area.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"585.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you get the bottom cover from the shelf?",
+            "system": "Sure, I can get the bottom cover from the shelf.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"586.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Please move the fuse to the workbench.",
+            "system": "Sure, I can move the fuse to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"587.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you bring the top cover from the table?",
+            "system": "Sure, I can bring the top cover from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"588.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the pcb from the shelf to the workbench.",
+            "system": "Sure, I can move the pcb from the shelf to the workbench.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+"589.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Please bring the fuse from the workbench to the shelf.",
+            "system": "Sure, I can bring the fuse from the workbench to the shelf.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "workbench",
+                            "to": "shelf"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+"590.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you get the pcb from the shelf?",
+            "system": "Sure, I can get the pcb from the shelf.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move it to the workbench.",
+            "system": "Sure, I can move the pcb to the workbench.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"591.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the bottom cover to the storage area.",
+            "system": "Sure, I can move the bottom cover to the storage area.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you bring the top cover from the table?",
+            "system": "Sure, I can bring the top cover from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"592.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Please move the fuse to the workbench.",
+            "system": "Sure, I can move the fuse to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you get the bottom cover from the shelf?",
+            "system": "Sure, I can get the bottom cover from the shelf.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"593.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you bring the pcb from the workbench to the storage area?",
+            "system": "Sure, I can bring the pcb from the workbench to the storage area.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "workbench",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move the top cover to the table.",
+            "system": "Sure, I can move the top cover to the table.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "table"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"594.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the bottom cover from the shelf to the workbench.",
+            "system": "Sure, I can move the bottom cover from the shelf to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you bring the fuse from the table?",
+            "system": "Sure, I can bring the fuse from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+"595.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you get the pcb from the shelf?",
+            "system": "Sure, I can get the pcb from the shelf.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move it to the workbench.",
+            "system": "Sure, I can move the pcb to the workbench.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you also bring the top cover from the table?",
+            "system": "Sure, I can bring the top cover from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"596.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the bottom cover to the storage area.",
+            "system": "Sure, I can move the bottom cover to the storage area.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you bring the top cover from the table?",
+            "system": "Sure, I can bring the top cover from the table.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move the fuse to the workbench.",
+            "system": "Sure, I can move the fuse to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"597.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you bring the pcb from the workbench to the storage area?",
+            "system": "Sure, I can bring the pcb from the workbench to the storage area.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "pcb"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "workbench",
+                            "to": "storage area"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move the top cover to the table.",
+            "system": "Sure, I can move the top cover to the table.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "table"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you get the bottom cover from the shelf?",
+            "system": "Sure, I can get the bottom cover from the shelf.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"598.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Move the bottom cover from the shelf to the workbench.",
+            "system": "Sure, I can move the bottom cover from the shelf to the workbench.",
+            "s_system": "Let me know if you need anything else.",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you bring the fuse from the table?",
+            "system": "Sure, I can bring the fuse from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "fuse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move the top cover to the workbench.",
+            "system": "Sure, I can move the top cover to the workbench.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "not_mentioned",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+},
+
+"599.json": {
+    "domain": {
+        "relocation": true
+    },
+    "turn": [
+        {
+            "user": "Can you get the bottom cover from the shelf?",
+            "system": "Sure, I can get the bottom cover from the shelf.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Please move it to the workbench.",
+            "system": "Sure, I can move the bottom cover to the workbench.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "bottom cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "shelf",
+                            "to": "workbench"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        },
+        {
+            "user": "Can you bring the top cover from the table?",
+            "system": "Sure, I can bring the top cover from the table.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "relocation": {
+                    "DB_request": {
+                        "req": {
+                            "object_name": "top cover"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {},
+                        "opt": {
+                            "color": "not_mentioned",
+                            "size": "not_mentioned",
+                            "from": "table",
+                            "to": "not_mentioned"
+                        },
+                        "type": "relocation"
+                    }
+                }
+            },
+            "search_result": {
+                "object_name": "detected"
+            }
+        }
+    ]
+}
+}
+
+

@@ -1,0 +1,4881 @@
+{
+  "300.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you guide me to the laser cell?",
+        "system": "Certainly, I can help you move to the laser cell. The location is accessible in our database. What would you like the robot to do?",
+        "s_system": "Is there anything specific you need to do at the laser cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "301.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to add a new position called 'quality control station' to the map.",
+        "system": "I understand you want to add a new position called 'quality control station' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "Is there an existing location you'd like information about instead?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "quality control station"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "302.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the injection molding machine located?",
+        "system": "The injection molding machine is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the injection molding machine, or do you need information about it?",
+        "s_system": "Let me know how I can assist you further regarding the injection molding machine.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "injection molding machine"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "303.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to robot cell one, please.",
+        "system": "Certainly, I can help you move to robot cell one. The location is accessible in our database. The robot will now start moving to robot cell one.",
+        "s_system": "Is there a specific task you need to perform at robot cell one?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "robot cell one"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "304.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the cafeteria.",
+        "system": "I apologize, but the cafeteria is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "If you're looking for a place to rest or have a meal, perhaps I can suggest an alternative location that is in our database?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "cafeteria"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "305.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you tell me about the screwing cell?",
+        "system": "The screwing cell is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the screwing cell, or do you need information about it?",
+        "s_system": "Is there anything specific you'd like to know about the screwing cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "screwing cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "306.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I want to add the break room to the map.",
+        "system": "I understand you want to add a new position called 'break room' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "break room"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "307.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Navigate to the kuka robot cell.",
+        "system": "Certainly, I can help you move to the kuka robot cell. The location is accessible in our database. The robot will now start moving to the kuka robot cell.",
+        "s_system": "Do you have any specific tasks planned at the kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "308.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's at the lego smart production line?",
+        "system": "The lego smart production line is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the lego smart production line, or do you need information about it?",
+        "s_system": "I'd be happy to provide more details about the lego smart production line if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "lego smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "309.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the conference room.",
+        "system": "I apologize, but the conference room is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "If you need a place for a meeting, perhaps I can suggest an alternative location that is in our database?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "conference room"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "310.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the smart production line.",
+        "system": "Certainly, I can help you move to the smart production line. The location is accessible in our database. The robot will now start moving to the smart production line.",
+        "s_system": "Is there a particular aspect of the smart production line you're interested in?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "311.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where can I find the warehouse?",
+        "system": "The warehouse is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the warehouse, or do you need information about its location?",
+        "s_system": "Is there anything specific you're looking for in the warehouse?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "312.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the new assembly station to the map?",
+        "system": "I understand you want to add a new position called 'new assembly station' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "new assembly station"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "313.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Guide me to the basement, please.",
+        "system": "Certainly, I can help you move to the basement. The location is accessible in our database. The robot will now start moving to the basement.",
+        "s_system": "Is there something specific you need to do in the basement?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "basement"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "314.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's in the storage place?",
+        "system": "The storage place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the storage place, or do you need information about what's stored there?",
+        "s_system": "I can provide more details about the storage place if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "315.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the flexible kuka robot cell.",
+        "system": "Certainly, I can help you move to the flexible kuka robot cell. The location is accessible in our database. The robot will now start moving to the flexible kuka robot cell.",
+        "s_system": "Do you have any specific tasks planned at the flexible kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "316.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the hamstrength place?",
+        "system": "The hamstrength place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the hamstrength place, or do you need information about its location?",
+        "s_system": "Is there anything specific you'd like to know about the hamstrength place?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "hamstrength place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "317.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the new testing area to the map?",
+        "system": "I understand you want to add a new position called 'new testing area' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "new testing area"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "318.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the workbench.",
+        "system": "Certainly, I can help you move to the workbench. The location is accessible in our database. The robot will now start moving to the workbench.",
+        "s_system": "Do you have a specific task you need to perform at the workbench?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "workbench"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "319.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's available in the maker space?",
+        "system": "The maker space is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the maker space, or do you need information about what's available there?",
+        "s_system": "I can provide more details about the equipment and resources in the maker space if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "maker space"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "320.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the 3D printer, please.",
+        "system": "Certainly, I can help you move to the 3D printer. The location is accessible in our database. The robot will now start moving to the 3D printer.",
+        "s_system": "Do you have a specific project in mind for the 3D printer?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "321.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the main office located?",
+        "system": "I apologize, but the main office is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "Is there a specific reason you're looking for the main office? Perhaps I can help you find an alternative location that suits your needs.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "main office"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "322.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you guide me to the entrance?",
+        "system": "Certainly, I can help you move to the entrance. The location is accessible in our database. The robot will now start moving to the entrance.",
+        "s_system": "Are you heading out or meeting someone at the entrance?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "entrance"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "323.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I want to add the new CNC machine area to the map.",
+        "system": "I understand you want to add a new position called 'CNC machine area' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "CNC machine area"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "324.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's happening at robot cell two?",
+        "system": "Robot cell two is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to robot cell two, or do you need information about what's happening there?",
+        "s_system": "I can provide more details about the current activities in robot cell two if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "robot cell two"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "325.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the quality control area.",
+        "system": "I apologize, but the quality control area is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "If you need to perform quality control tasks, perhaps I can suggest an alternative location that is in our database?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "quality control area"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "326.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What equipment is in the laser cell?",
+        "system": "The laser cell is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the laser cell, or do you need information about the equipment there?",
+        "s_system": "I can provide more details about the laser equipment if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "327.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the injection molding machine.",
+        "system": "Certainly, I can help you move to the injection molding machine. The location is accessible in our database. The robot will now start moving to the injection molding machine.",
+        "s_system": "Do you have a specific task to perform at the injection molding machine?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "injection molding machine"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "328.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the new packaging station to the map?",
+        "system": "I understand you want to add a new position called 'packaging station' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "packaging station"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "329.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where can I find the screwing cell?",
+        "system": "The screwing cell is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the screwing cell, or do you need information about its location?",
+        "s_system": "Is there a specific task you need to perform at the screwing cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "screwing cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      }
+    ]
+  },
+
+  "330.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Guide me to the kuka robot cell, please.",
+        "system": "Certainly, I can help you move to the kuka robot cell. The location is accessible in our database. The robot will now start moving to the kuka robot cell.",
+        "s_system": "Is there a specific task you need to perform at the kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+"331.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you tell me about the hamstrength place?",
+        "system": "The hamstrength place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the hamstrength place, or do you need information about it?",
+        "s_system": "I can provide more details about the equipment or activities in the hamstrength place if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "hamstrength place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+"332.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the smart production line.",
+        "system": "Certainly, I can help you move to the smart production line. The location is accessible in our database. The robot will now start moving to the smart production line.",
+        "s_system": "Do you have any specific tasks planned at the smart production line?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "333.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the nearest fire extinguisher?",
+        "system": "I apologize, but the fire extinguisher locations are not currently in our accessible database. For safety reasons, it's important to know where fire extinguishers are located. Please check with the facility manager or look for visible fire safety signs in the area.",
+        "s_system": "Is there an emergency? If so, please contact the appropriate emergency services immediately.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "fire extinguisher"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "334.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the warehouse.",
+        "system": "Certainly, I can help you move to the warehouse. The location is accessible in our database. The robot will now start moving to the warehouse.",
+        "s_system": "Is there something specific you need to retrieve or check in the warehouse?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "335.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's in the basement?",
+        "system": "The basement is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the basement, or do you need information about what's stored there?",
+        "s_system": "I can provide more details about the contents of the basement if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "basement"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "336.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the new research lab to the map?",
+        "system": "I understand you want to add a new position called 'research lab' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "research lab"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "337.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the storage place.",
+        "system": "Certainly, I can help you move to the storage place. The location is accessible in our database. The robot will now start moving to the storage place.",
+        "s_system": "Is there something specific you need to store or retrieve from the storage place?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "338.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the flexible kuka robot cell located?",
+        "system": "The flexible kuka robot cell is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the flexible kuka robot cell, or do you need information about its location?",
+        "s_system": "Is there a specific task you need to perform at the flexible kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "339.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Guide me to the entrance, please.",
+        "system": "Certainly, I can help you move to the entrance. The location is accessible in our database. The robot will now start moving to the entrance.",
+        "s_system": "Are you heading out or expecting someone to arrive?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "entrance"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+"340.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you guide me to the laser cell?",
+        "system": "Certainly, I can help you move to the laser cell. The location is accessible in our database. Would you like the robot to start moving to the laser cell now?",
+        "s_system": "Is there a specific task you need to perform at the laser cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, please start moving. I need to check the laser equipment.",
+        "system": "Understood. The robot is now moving to the laser cell. Once we arrive, you'll be able to check the laser equipment.",
+        "s_system": "Is there any specific aspect of the laser equipment you're particularly interested in?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "341.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to add a new position called 'quality control station' to the map.",
+        "system": "I understand you want to add a new position called 'quality control station' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "quality control station"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. In that case, can you take me to the injection molding machine?",
+        "system": "Certainly, I can help you move to the injection molding machine. The location is accessible in our database. The robot will now start moving to the injection molding machine.",
+        "s_system": "Do you have a specific task to perform at the injection molding machine?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "injection molding machine"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "342.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the robot cell one located?",
+        "system": "Robot cell one is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to robot cell one, or do you need information about its location?",
+        "s_system": "Is there a specific reason you're asking about robot cell one?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "robot cell one"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I need to go there to check on a project.",
+        "system": "Understood. I can help you move to robot cell one. The robot will now start moving to that location.",
+        "s_system": "Would you like any information about the current projects in robot cell one while we're on our way?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "robot cell one"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "343.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the cafeteria.",
+        "system": "I apologize, but the cafeteria is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "If you're looking for a place to rest or have a meal, perhaps I can suggest an alternative location that is in our database?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "cafeteria"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Oh, I see. Can you take me to the maker space instead?",
+        "system": "Certainly, I can help you move to the maker space. The location is accessible in our database. The robot will now start moving to the maker space.",
+        "s_system": "Are you planning to work on a specific project in the maker space?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "maker space"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "344.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you tell me about the screwing cell?",
+        "system": "The screwing cell is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the screwing cell, or do you need information about it?",
+        "s_system": "Is there anything specific you'd like to know about the screwing cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "screwing cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I'd like to go there to check on the equipment.",
+        "system": "Understood. I'll help you move to the screwing cell. The robot will now start moving to that location so you can check on the equipment.",
+        "s_system": "Is there any specific equipment in the screwing cell you're particularly interested in?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "screwing cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "345.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I want to add the break room to the map.",
+        "system": "I understand you want to add a new position called 'break room' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "break room"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. Can you tell me where the storage place is?",
+        "system": "The storage place is a known location in our database. Would you like the robot to move to the storage place, or do you need information about its location?",
+        "s_system": "Is there something specific you're looking for in the storage place?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "346.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Navigate to the kuka robot cell.",
+        "system": "Certainly, I can help you move to the kuka robot cell. The location is accessible in our database. The robot will now start moving to the kuka robot cell.",
+        "s_system": "Do you have any specific tasks planned at the kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to perform maintenance on the robot.",
+        "system": "Understood. We're on our way to the kuka robot cell for your maintenance task. Is there any specific equipment you'll need for the maintenance?",
+        "s_system": "If you need any additional information about the kuka robot before we arrive, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "347.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's at the lego smart production line?",
+        "system": "The lego smart production line is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the lego smart production line, or do you need information about it?",
+        "s_system": "I'd be happy to provide more details about the lego smart production line if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "lego smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I'd like to go there to observe the production process.",
+        "system": "Certainly, I can help you move to the lego smart production line to observe the production process. The robot will now start moving to that location.",
+        "s_system": "While we're on our way, would you like me to give you an overview of the lego smart production line's capabilities?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "lego smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "348.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the conference room.",
+        "system": "I apologize, but the conference room is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "If you need a place for a meeting, perhaps I can suggest an alternative location that is in our database?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "conference room"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. Can you take me to the smart production line instead?",
+        "system": "Certainly, I can help you move to the smart production line. The location is accessible in our database. The robot will now start moving to the smart production line.",
+        "s_system": "Is there a particular aspect of the smart production line you're interested in seeing?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "349.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where can I find the warehouse?",
+        "system": "The warehouse is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the warehouse, or do you need information about its location?",
+        "s_system": "Is there anything specific you're looking for in the warehouse?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I need to go there to check our inventory.",
+        "system": "Understood. I'll help you move to the warehouse to check the inventory. The robot will now start moving to that location.",
+        "s_system": "Is there a specific part of the inventory you're focusing on today?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+  "350.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the new assembly station to the map?",
+        "system": "I understand you want to add a new position called 'new assembly station' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "new assembly station"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. In that case, can you take me to the basement?",
+        "system": "Certainly, I can help you move to the basement. The location is accessible in our database. The robot will now start moving to the basement.",
+        "s_system": "Is there something specific you need to do in the basement?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "basement"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+  "351.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's in the storage place?",
+        "system": "The storage place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the storage place, or do you need information about what's stored there?",
+        "s_system": "I can provide more details about the storage place if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I need to go there to retrieve some materials.",
+        "system": "Understood. I'll help you move to the storage place to retrieve materials. The robot will now start moving to that location.",
+        "s_system": "Are you looking for any specific materials in the storage place?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "352.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the flexible kuka robot cell.",
+        "system": "Certainly, I can help you move to the flexible kuka robot cell. The location is accessible in our database. The robot will now start moving to the flexible kuka robot cell.",
+        "s_system": "Do you have any specific tasks planned at the flexible kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to program a new sequence for the robot.",
+        "system": "Understood. We're on our way to the flexible kuka robot cell for your programming task. Is there any specific software or equipment you'll need for programming the new sequence?",
+        "s_system": "If you need any information about the current programming or capabilities of the flexible kuka robot, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "353.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the hamstrength place?",
+        "system": "The hamstrength place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the hamstrength place, or do you need information about its location?",
+        "s_system": "Is there anything specific you'd like to know about the hamstrength place?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "hamstrength place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I'd like to go there to check on the equipment.",
+        "system": "Certainly, I can help you move to the hamstrength place to check on the equipment. The robot will now start moving to that location.",
+        "s_system": "Is there any specific equipment in the hamstrength place you're particularly interested in?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "hamstrength place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "354.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the new testing area to the map?",
+        "system": "I understand you want to add a new position called 'new testing area' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "new testing area"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. Can you tell me where the workbench is located?",
+        "system": "The workbench is a known location in our database. Would you like the robot to move to the workbench, or do you need information about its location?",
+        "s_system": "Is there a specific task you need to perform at the workbench?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "workbench"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "355.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the workbench.",
+        "system": "Certainly, I can help you move to the workbench. The location is accessible in our database. The robot will now start moving to the workbench.",
+        "s_system": "Do you have a specific task you need to perform at the workbench?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "workbench"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to assemble some components for a project.",
+        "system": "Understood. We're on our way to the workbench for your assembly task. Is there any specific tool or equipment you'll need for assembling the components?",
+        "s_system": "If you need any information about the tools available at the workbench, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "workbench"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "356.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's available in the maker space?",
+        "system": "The maker space is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the maker space, or do you need information about what's available there?",
+        "s_system": "I can provide more details about the equipment and resources in the maker space if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "maker space"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I'd like to go there to use the 3D printer.",
+        "system": "Certainly, I can help you move to the maker space to use the 3D printer. The robot will now start moving to that location.",
+        "s_system": "Do you have a specific project in mind for the 3D printer? I'd be happy to provide any information about its capabilities if needed.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "maker space"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+"357.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the 3D printer, please.",
+        "system": "Certainly, I can help you move to the 3D printer. The location is accessible in our database. The robot will now start moving to the 3D printer.",
+        "s_system": "Do you have a specific project in mind for the 3D printer?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to print a prototype for a new part.",
+        "system": "Understood. We're heading to the 3D printer for your prototyping task. Is the 3D model file ready for printing?",
+        "s_system": "If you need any assistance with the 3D printer setup or have questions about its capabilities, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      }
+    ]
+  },
+
+  "358.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the main office located?",
+        "system": "I apologize, but the main office is not a location that's currently accessible in our database. Could you please specify a different location from the available options?",
+        "s_system": "Is there a specific reason you're looking for the main office? Perhaps I can help you find an alternative location that suits your needs.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "main office"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I see. Can you take me to the entrance instead?",
+        "system": "Certainly, I can help you move to the entrance. The location is accessible in our database. The robot will now start moving to the entrance.",
+        "s_system": "Are you heading out or meeting someone at the entrance?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "entrance"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      }
+    ]
+  },
+
+  "359.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I want to add the new CNC machine area to the map.",
+        "system": "I understand you want to add a new position called 'CNC machine area' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "CNC machine area"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. Can you tell me about the robot cell two?",
+        "system": "Robot cell two is a known location in our database. Would you like the robot to move to robot cell two, or do you need information about it?",
+        "s_system": "Is there a specific aspect of robot cell two you're interested in?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "robot cell two"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+        }
+    ]
+  },
+
+  "360.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Guide me to the smart production line.",
+        "system": "Certainly, I can help you move to the smart production line. The location is accessible in our database. The robot will now start moving to the smart production line.",
+        "s_system": "Is there a particular aspect of the smart production line you're interested in seeing?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I want to observe the automation process.",
+        "system": "Understood. We're on our way to the smart production line where you can observe the automation process. Is there a specific part of the automation you're most interested in?",
+        "s_system": "I can provide some background information about the smart production line's automation capabilities if you'd like.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "361.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you show me where the warehouse is?",
+        "system": "The warehouse is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the warehouse, or do you need information about its location?",
+        "s_system": "Is there something specific you're looking for in the warehouse?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+            
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "Yes, please take me there. I need to check on some inventory.",
+        "system": "Certainly, I can help you move to the warehouse to check on inventory. The robot will now start moving to the warehouse.",
+        "s_system": "Is there a specific type of inventory you're planning to check?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "362.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the basement.",
+        "system": "Certainly, I can help you move to the basement. The location is accessible in our database. The robot will now start moving to the basement.",
+        "s_system": "Is there something specific you need to do in the basement?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "basement"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to check on the electrical panels.",
+        "system": "Understood. We're heading to the basement for you to check on the electrical panels. Is there any specific equipment you need to bring for this task?",
+        "s_system": "If you need any information about the layout of the electrical panels in the basement, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "basement"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "363.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where is the storage place located?",
+        "system": "The storage place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the storage place, or do you need information about its location?",
+        "s_system": "Is there something specific you're looking for in the storage place?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I need to go there to retrieve some tools.",
+        "system": "Certainly, I can help you move to the storage place to retrieve tools. The robot will now start moving to the storage place.",
+        "s_system": "Are there specific tools you're looking for? I might be able to provide information about their usual location in the storage place.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "storage place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "364.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you add the quality control area to the map?",
+        "system": "I understand you want to add a new position called 'quality control area' to the digital map. However, I don't have the capability to directly add new locations to the map. You might need to contact the system administrator or use the appropriate software for map updates.",
+        "s_system": "In the meantime, is there an existing location you'd like information about?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "quality control area"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "add"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "null",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I see. In that case, can you take me to the flexible kuka robot cell?",
+        "system": "Certainly, I can help you move to the flexible kuka robot cell. The location is accessible in our database. The robot will now start moving to the flexible kuka robot cell.",
+        "s_system": "Do you have any specific tasks planned at the flexible kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "365.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "What's at the hamstrength place?",
+        "system": "The hamstrength place is a known location in our database. However, you haven't specified what operation you'd like to perform. Would you like the robot to move to the hamstrength place, or do you need information about what's there?",
+        "s_system": "I can provide more details about the equipment or activities in the hamstrength place if you're interested.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "hamstrength place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "I'd like to go there to use the equipment.",
+        "system": "Certainly, I can help you move to the hamstrength place to use the equipment. The robot will now start moving to that location.",
+        "s_system": "Is there any specific equipment in the hamstrength place you're planning to use?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "hamstrength place"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "366.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the workbench, please.",
+        "system": "Certainly, I can help you move to the workbench. The location is accessible in our database. The robot will now start moving to the workbench.",
+        "s_system": "Do you have a specific task you need to perform at the workbench?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "workbench"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to repair a small component.",
+        "system": "Understood. We're heading to the workbench for your repair task. Are there any specific tools you'll need for repairing the component?",
+        "s_system": "If you need any information about the tools available at the workbench, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "workbench"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "367.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the maker space.",
+        "system": "Certainly, I can help you move to the maker space. The location is accessible in our database. The robot will now start moving to the maker space.",
+        "s_system": "Do you have a specific project in mind for the maker space?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "maker space"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I want to use the laser cutter for a project.",
+        "system": "Understood. We're on our way to the maker space for you to use the laser cutter. Is your design file ready for the laser cutter?",
+        "s_system": "If you need any information about the laser cutter's capabilities or safety procedures, feel free to ask.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "maker space"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "368.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Where can I find the 3D printer?",
+        "system": "The 3D printer is a known location in our database. Would you like the robot to move to the 3D printer, or do you need information about its location?",
+        "s_system": "Do you have a specific project in mind for the 3D printer?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "not_mentioned"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "null"
+          }
+      },
+      {
+        "user": "Yes, please take me there. I need to print a prototype.",
+        "system": "Certainly, I can help you move to the 3D printer to print your prototype. The robot will now start moving to the 3D printer location.",
+        "s_system": "While we're on our way, would you like any information about the 3D printer's specifications or capabilities?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "369.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you guide me to the entrance?",
+        "system": "Certainly, I can help you move to the entrance. The location is accessible in our database. The robot will now start moving to the entrance.",
+        "s_system": "Are you heading out or meeting someone at the entrance?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "entrance"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I'm meeting a visitor who's arriving soon.",
+        "system": "Understood. We're heading to the entrance so you can meet your visitor. Is there anything else you need to prepare for their arrival?",
+        "s_system": "If you need any information about visitor protocols or badges, I'd be happy to assist.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "entrance"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+"370.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you guide me to the laser cell?",
+        "system": "Certainly, I can help you move to the laser cell. The location is accessible in our database. Would you like the robot to start moving to the laser cell now?",
+        "s_system": "Is there a specific task you need to perform at the laser cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, please start moving. I need to check the laser equipment.",
+        "system": "Understood. The robot is now moving to the laser cell. Once we arrive, you'll be able to check the laser equipment.",
+        "s_system": "Is there any specific aspect of the laser equipment you're particularly interested in?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I need to calibrate the laser cutter. How much longer until we arrive?",
+        "system": "We're almost at the laser cell. It should be just a few more moments. When we arrive, you'll be able to start the calibration process for the laser cutter.",
+        "s_system": "While we're finishing up our journey, would you like me to pull up the calibration procedure for the laser cutter?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "laser cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "371.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the warehouse.",
+        "system": "Certainly, I can help you move to the warehouse. The location is accessible in our database. The robot will now start moving to the warehouse.",
+        "s_system": "Is there something specific you need to retrieve or check in the warehouse?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to check on some inventory. How long will it take to get there?",
+        "system": "We're currently en route to the warehouse. It should take approximately 5 more minutes to arrive. Once there, you'll be able to check on the inventory.",
+        "s_system": "Is there a specific type of inventory you're planning to check? I might be able to provide some information about its usual location in the warehouse.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I'm looking for the new shipment of electronic components. Can you help me locate them once we're there?",
+        "system": "Certainly! We're almost at the warehouse now. Once we arrive, I can guide you to the area where electronic components are typically stored. The new shipment should be in that section.",
+        "s_system": "While we finish our journey, would you like me to pull up the recent shipment manifest for the electronic components?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "warehouse"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+  "372.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Take me to the flexible kuka robot cell.",
+        "system": "Certainly, I can help you move to the flexible kuka robot cell. The location is accessible in our database. The robot will now start moving to the flexible kuka robot cell.",
+        "s_system": "Do you have any specific tasks planned at the flexible kuka robot cell?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to program a new sequence for the robot. How much longer until we get there?",
+        "system": "We're currently on our way to the flexible kuka robot cell. It should take about 3 more minutes to arrive. Once there, you'll be able to start programming the new sequence.",
+        "s_system": "While we're en route, would you like me to pull up the current program sequences for the kuka robot?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "That would be helpful. Can you also tell me if anyone else is scheduled to work on the kuka robot today?",
+        "system": "Certainly! I'm pulling up the current program sequences now. As for the schedule, I don't have direct access to that information, but when we arrive at the flexible kuka robot cell, you should be able to check the daily schedule posted there.",
+        "s_system": "We're almost at the flexible kuka robot cell. Is there anything specific about the new sequence you're planning to program that you'd like to discuss?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "flexible kuka robot cell"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      }
+    ]
+  },
+
+  "373.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "I need to go to the 3D printer.",
+        "system": "Certainly, I can help you move to the 3D printer. The location is accessible in our database. The robot will now start moving to the 3D printer.",
+        "s_system": "Do you have a specific project in mind for the 3D printer?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, I need to print a prototype. How long will it take to get there?",
+        "system": "We're currently on our way to the 3D printer. It should take approximately 4 more minutes to arrive. Once there, you'll be able to start your prototype printing process.",
+        "s_system": "While we're en route, would you like any information about the 3D printer's specifications or capabilities?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, can you tell me what types of filament are currently available for the printer?",
+        "system": "While I don't have real-time inventory information, the 3D printer in our facility typically has PLA, ABS, and PETG filaments available. When we arrive, you'll be able to check the exact stock of filaments next to the printer.",
+        "s_system": "We're almost at the 3D printer now. Is your 3D model file ready for printing?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "3D printer"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+
+  "374.json": {
+    "domain": {
+      "position": true
+    },
+    "turn": [
+      {
+        "user": "Can you take me to the smart production line?",
+        "system": "Certainly, I can help you move to the smart production line. The location is accessible in our database. The robot will now start moving to the smart production line.",
+        "s_system": "Is there a particular aspect of the smart production line you're interested in seeing?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "I need to check on the recent upgrades. How far are we from the smart production line?",
+        "system": "We're currently en route to the smart production line. It should take about 6 more minutes to arrive. Once there, you'll be able to inspect the recent upgrades.",
+        "s_system": "While we're on our way, would you like me to provide an overview of the recent upgrades made to the smart production line?",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+      },
+      {
+        "user": "Yes, please give me an overview. Also, is the production line currently active?",
+        "system": "Certainly! The recent upgrades include improved sensor systems for quality control and a new robotic arm for increased efficiency. As for the current status, I don't have real-time information, but the smart production line typically operates on a regular schedule during working hours.",
+        "s_system": "We're almost at the smart production line now. When we arrive, you'll be able to see the upgrades in action and check the current production status.",
+        "slots": {
+          "position": {
+            "DB_request": {
+              "req": {
+                "position_name": "smart production line"
+              },
+              "opt": {}
+            },
+            "T_inform": {
+              "req": {
+                "operation": "move"
+              },
+              "opt": {},
+              "type": "position"
+            }
+          }
+          },
+          "search_result": {
+            "position_name": "detected",
+            "operation": "detected"
+          }
+        }
+    ]
+  },
+"375.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Can you move to the laser cell?",
+            "system": "Sure, I can move to the laser cell.",
+            "s_system": "Is there anything else you need?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "laser cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"376.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Add a new position called the coffee machine.",
+            "system": "I'm sorry, but the position 'coffee machine' is not accessible.",
+            "s_system": "Anything else I can assist you with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "coffee machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"377.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Navigate to the injection molding machine.",
+            "system": "I can navigate to the injection molding machine.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "injection molding machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"378.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the robot cell one.",
+            "system": "I can move to the robot cell one.",
+            "s_system": "Anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "robot cell one"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"379.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Go to the screwing cell.",
+            "system": "I can go to the screwing cell.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "screwing cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"380.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the kuka robot cell.",
+            "system": "I can move to the kuka robot cell.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "kuka robot cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"381.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Add a new position called the conference room.",
+            "system": "I'm sorry, but the position 'conference room' is not accessible.",
+            "s_system": "Is there anything else I can help with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "conference room"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"382.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Navigate to the lego smart production line.",
+            "system": "I can navigate to the lego smart production line.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "lego smart production line"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"383.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Go to the smart production line.",
+            "system": "I can go to the smart production line.",
+            "s_system": "Anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "smart production line"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"384.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Navigate to the warehouse.",
+            "system": "I can navigate to the warehouse.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "warehouse"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"385.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Go to the basement.",
+            "system": "I can go to the basement.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "basement"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"386.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the storage place.",
+            "system": "I can move to the storage place.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "storage place"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"387.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Add a new position called the meeting room.",
+            "system": "I'm sorry, but the position 'meeting room' is not accessible.",
+            "s_system": "Is there anything else I can help with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "meeting room"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"388.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Navigate to the flexible kuka robot cell.",
+            "system": "I can navigate to the flexible kuka robot cell.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "flexible kuka robot cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+"389.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Can you move to the 3D printer?",
+            "system": "I can move to the 3D printer.",
+            "s_system": "Is there anything else you need?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "3D printer"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Add a new position called the meeting room.",
+            "system": "I'm sorry, but the position 'meeting room' is not accessible.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "meeting room"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"390.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Go to the entrance.",
+            "system": "I can go to the entrance.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "entrance"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Navigate to the laser cell.",
+            "system": "I can navigate to the laser cell.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "laser cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"391.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the injection molding machine.",
+            "system": "I can move to the injection molding machine.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "injection molding machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Add a new position called the coffee machine.",
+            "system": "I'm sorry, but the position 'coffee machine' is not accessible.",
+            "s_system": "Is there anything else I can help with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "coffee machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"392.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Navigate to the robot cell one.",
+            "system": "I can navigate to the robot cell one.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "robot cell one"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Go to the screwing cell.",
+            "system": "I can go to the screwing cell.",
+            "s_system": "Anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "screwing cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"393.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the kuka robot cell.",
+            "system": "I can move to the kuka robot cell.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "kuka robot cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Navigate to the lego smart production line.",
+            "system": "I can navigate to the lego smart production line.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "lego smart production line"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+"394.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Can you move to the 3D printer?",
+            "system": "I can move to the 3D printer.",
+            "s_system": "Is there anything else you need?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "3D printer"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Add a new position called the meeting room.",
+            "system": "I'm sorry, but the position 'meeting room' is not accessible.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "meeting room"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Go to the entrance.",
+            "system": "I can go to the entrance.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "entrance"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"395.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Go to the entrance.",
+            "system": "I can go to the entrance.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "entrance"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Navigate to the laser cell.",
+            "system": "I can navigate to the laser cell.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "laser cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Move to the injection molding machine.",
+            "system": "I can move to the injection molding machine.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "injection molding machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"396.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the injection molding machine.",
+            "system": "I can move to the injection molding machine.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "injection molding machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Add a new position called the coffee machine.",
+            "system": "I'm sorry, but the position 'coffee machine' is not accessible.",
+            "s_system": "Is there anything else I can help with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "coffee machine"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Navigate to the robot cell one.",
+            "system": "I can navigate to the robot cell one.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "robot cell one"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"397.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Navigate to the robot cell one.",
+            "system": "I can navigate to the robot cell one.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "robot cell one"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Go to the screwing cell.",
+            "system": "I can go to the screwing cell.",
+            "s_system": "Anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "screwing cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Move to the kuka robot cell.",
+            "system": "I can move to the kuka robot cell.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "kuka robot cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+
+"398.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Move to the kuka robot cell.",
+            "system": "I can move to the kuka robot cell.",
+            "s_system": "Anything else I can assist with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "kuka robot cell"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Navigate to the lego smart production line.",
+            "system": "I can navigate to the lego smart production line.",
+            "s_system": "Need anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "lego smart production line"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Go to the smart production line.",
+            "system": "I can go to the smart production line.",
+            "s_system": "Anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "smart production line"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+},
+"399.json": {
+    "domain": {
+        "position": true
+    },
+    "turn": [
+        {
+            "user": "Can you go to the basement?",
+            "system": "I can go to the basement.",
+            "s_system": "Anything else you need?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "basement"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Add a new position called the conference room.",
+            "system": "I'm sorry, but the position 'conference room' is not accessible.",
+            "s_system": "Is there anything else I can help with?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "conference room"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "add"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "undetected",
+                "operation": "detected"
+            }
+        },
+        {
+            "user": "Navigate to the storage place.",
+            "system": "I can navigate to the storage place.",
+            "s_system": "Need help with anything else?",
+            "slots": {
+                "position": {
+                    "DB_request": {
+                        "req": {
+                            "position_name": "storage place"
+                        },
+                        "opt": {}
+                    },
+                    "T_inform": {
+                        "req": {
+                            "operation": "move"
+                        },
+                        "opt": {},
+                        "type": "position"
+                    }
+                  }
+                },
+            "search_result": {
+                "position_name": "detected",
+                "operation": "detected"
+            }
+        }
+    ]
+}
+}

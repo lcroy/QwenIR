@@ -1,0 +1,11 @@
+{
+  "total_samples": 607,
+  "train_samples": 546,
+  "validation_samples": 61,
+  "domains": [
+    "assembly",
+    "delivery",
+    "position",
+    "relocation"
+  ]
+}
