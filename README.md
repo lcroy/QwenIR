@@ -10,6 +10,8 @@ This project uses LoRA (Low-Rank Adaptation) technology to perform parameter-eff
 - **Multi-scenario Support**: Four major interaction scenarios: assembly, delivery, positioning, relocation
 - **Experiment Tracking**: Supports WandB and TensorBoard
 - **Easy to Extend**: Clean code structure for easy addition of new features
+- **Production Ready**: Optimized codebase with clean imports and no debug artifacts
+- **Robust Evaluation**: Fixed slot accuracy evaluation with proper nested JSON parsing
 
 ## 📁 Project Structure
 
@@ -48,6 +50,8 @@ disLLM/
 - **Easy Maintenance**: Modifying evaluation logic doesn't affect training code
 - **Extensibility**: Can independently replace or extend any module
 - **Reusability**: Evaluator can be used independently in other projects
+- **Clean Code**: Optimized imports, removed debug code, and eliminated unused dependencies
+- **Production Ready**: No temporary files or test artifacts in the main codebase
 
 ## 📊 Dataset Description
 
@@ -288,7 +292,13 @@ ValueError: expected sequence of length 77 at dim 1 (got 49)
 ```
 **Solution**: This issue has been fixed in the project using a custom data collator to handle sequences of different lengths.
 
-#### 2. Out of Memory (OOM)
+#### 2. Slot Accuracy Evaluation Issues
+```
+Slot accuracy showing 0% despite good model performance
+```
+**Solution**: Fixed nested JSON parsing in slot evaluation logic. The evaluator now correctly extracts slot information from the complex data structure and provides accurate slot filling metrics.
+
+#### 3. Out of Memory (OOM)
 ```bash
 # Solution 1: Reduce batch size
 python train_finetune.py --batch_size 1
@@ -303,7 +313,7 @@ python train_finetune.py --model_name Qwen/Qwen2.5-1.5B-Instruct
 python train_finetune.py --max_length 1024
 ```
 
-#### 3. Slow Training Speed
+#### 4. Slow Training Speed
 ```bash
 # Increase batch size (if GPU memory allows)
 python train_finetune.py --batch_size 4
@@ -312,7 +322,7 @@ python train_finetune.py --batch_size 4
 # Fused optimizer (already enabled by default)
 ```
 
-#### 4. Poor Model Performance
+#### 5. Poor Model Performance
 ```bash
 # Increase LoRA parameters
 python train_finetune.py --lora_r 32 --lora_alpha 64
@@ -324,7 +334,7 @@ python train_finetune.py --epochs 5
 python train_finetune.py --learning_rate 3e-4
 ```
 
-#### 5. Model Loading Failure
+#### 6. Model Loading Failure
 ```bash
 # Check if model path is correct
 ls -la ./qwen_finetuned/
