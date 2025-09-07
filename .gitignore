@@ -73,6 +73,14 @@ qwen_finetuned_visual/
 *.pkl
 *.pickle
 
+# Evaluation results
+evaluation_results.json
+*_results.json
+
+# Test files
+test_*.py
+*_test.py
+
 # WandB logs
 wandb/
 .wandb/

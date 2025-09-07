@@ -4,7 +4,6 @@ Qwen模型微调训练器 - 使用LoRA进行参数高效微调
 """
 
 import torch
-import torch.nn.functional as F
 from transformers import (
     AutoTokenizer, AutoModelForCausalLM,
     TrainingArguments, Trainer, DataCollatorForLanguageModeling,

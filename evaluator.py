@@ -9,10 +9,7 @@ import os
 from typing import Dict, List, Any
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
-from datasets import Dataset
 import numpy as np
-from sklearn.metrics import accuracy_score, precision_recall_fscore_support
-import re
 from tqdm import tqdm
 
 class ModelEvaluator:
@@ -214,18 +211,40 @@ class ModelEvaluator:
         
         # 检查是否包含关键槽位信息
         found_slots = 0
-        for slot in key_slots:
-            if slot in expected_slots:
-                slot_value = expected_slots[slot]
-                if isinstance(slot_value, dict):
-                    for sub_slot, value in slot_value.items():
-                        if isinstance(value, str) and value.lower() in response_lower:
-                            found_slots += 1
-                            break
-                elif isinstance(slot_value, str) and slot_value.lower() in response_lower:
-                    found_slots += 1
+        total_expected_slots = 0
         
-        return found_slots >= len(key_slots) * 0.5  # 至少50%的槽位被识别
+        # 从嵌套结构中提取槽位值
+        if domain in expected_slots:
+            domain_data = expected_slots[domain]
+            
+            # 检查T_inform中的req字段
+            if "T_inform" in domain_data and "req" in domain_data["T_inform"]:
+                req_data = domain_data["T_inform"]["req"]
+                for slot in key_slots:
+                    if slot in req_data:
+                        total_expected_slots += 1
+                        slot_value = req_data[slot]
+                        if isinstance(slot_value, str) and slot_value.lower() != "not_mentioned":
+                            if slot_value.lower() in response_lower:
+                                found_slots += 1
+            
+            # 检查DB_request中的req字段
+            if "DB_request" in domain_data and "req" in domain_data["DB_request"]:
+                req_data = domain_data["DB_request"]["req"]
+                for slot in key_slots:
+                    if slot in req_data:
+                        total_expected_slots += 1
+                        slot_value = req_data[slot]
+                        if isinstance(slot_value, str) and slot_value.lower() != "not_mentioned":
+                            if slot_value.lower() in response_lower:
+                                found_slots += 1
+        
+        # 至少需要找到50%的槽位
+        if total_expected_slots == 0:
+            return False
+        
+        accuracy = found_slots / total_expected_slots
+        return accuracy >= 0.5
     
     def _evaluate_coherence(self, response: str) -> float:
         """评估回复的连贯性"""
@@ -263,8 +282,12 @@ class ModelEvaluator:
     def comprehensive_evaluation(self, test_data_path: str) -> Dict[str, Any]:
         """综合评估"""
         print("Loading test data...")
+        test_data = []
         with open(test_data_path, 'r', encoding='utf-8') as f:
-            test_data = json.load(f)
+            for line in f:
+                line = line.strip()
+                if line:
+                    test_data.append(json.loads(line))
         
         print("Starting comprehensive evaluation...")
         
